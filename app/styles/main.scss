@@ -124,41 +124,7 @@ footer{
   box-shadow: 1px -12px 17px -8px #000;
   position: relative;
   overflow: hidden;
-  color: white;
-  .shape{
-    position: absolute;
-    &.shape-1{
-      width: 100%;
-      height: 330px;
-      background: rgba(0, 0, 255, 0.58);
-      transform: skewY(30deg);
-    }
-    &.shape-2{
-      width: 180%;
-      height: 275px;
-      background: rgba(0, 128, 0, 0.65);
-      transform: skewY(165deg);
-    }
-    &.shape-3{
-      width: 200%;
-      height: 200px;
-      background: rgba(255, 165, 0, 0.68);
-      transform: skewY(15deg);
-    }
-    &.shape-4{
-      width: 210%;
-      height: 200px;
-      background: rgba(255, 0, 0, 0.63);
-      transform: skewY(45deg);
-    }
-    &.shape-5{
-      width: 100%;
-      height: 280px;
-      background: rgba(128, 0, 128, 0.71);
-      transform: skewY(35deg);
-      left: -490px;
-    }
-  }
+  // color: white;
   .marketing {
     p + h4 {
       margin-top: 28px;
